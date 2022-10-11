@@ -11,8 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!--CustomCss-->
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="container">
@@ -20,25 +23,25 @@
             <img src="img/Leon.jpg" alt="prototipologo" class="nav-logo">
             <ul class="nav-menu">
                 <li>
-                    <a href="EnEmision.html">En Emisión</a>
+                    <a href="pages/EnEmision.html">En Emisión</a>
                 </li>
                 <li>
-                    <a href="Siguiendo.html">Siguiendo</a>
+                    <a href="pages/Siguiendo.html">Siguiendo</a>
                 </li>
                 <li>
-                    <a href="Pendiente.html">Pendiente</a>
+                    <a href="pages/Pendiente.html">Pendiente</a>
                 </li>
                 <li>
-                    <a href="Random.html">Random</a>
+                    <a href="pages/Random.html">Random</a>
                 </li>
                 <li>
-                    <a href="ProximaTemporada.html">Proxima Temporada</a>
+                    <a href="pages/ProximaTemporada.html">Proxima Temporada</a>
                 </li>
                 <li>
-                    <a href="Noticias.html">Noticias</a>
+                    <a href="pages/Noticias.html">Noticias</a>
                 </li>
                 <li>
-                    <a href="Contacto.html">Contacto</a>
+                    <a href="pages/Contacto.html">Contacto</a>
                 </li>
             </ul>
             <ul class="buscador">
@@ -47,42 +50,158 @@
                 </a>
             </ul>
         </nav>
-        <hr>
         <!--showcase-->
         <header class="showcase">
-            <h2> Big news Today</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus aspernatur ea saepe culpa? Dignissimos dolorem inventore exercitationem placeat facilis similique, eaque vel voluptas impedit tempore a, ab, esse soluta in?</p>
-            <a href="#" class="btn">Read more<i class="fas fa-angle-double-right"></i></a>
+            <h2>Animnes Populares</h2>
         </header>
-        <!--news cards / tarjetas de noticias-->
-        <div class="news-cards">
-            <div>
-                <img src=" "alt="Noticia1">
-                <h3>Edens Zero</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos alias laborum id molestias porro quia nostrum assumenda deleniti culpa?</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+        <section >
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <p>Classroom of elite</p>
+                    <img src="img/Classroom-Elite-Temporada-2.jpg" class="img">
+                </div>
+                <div class="item">
+                    <p>Overlord</p>
+                    <img src="img/overlord-s4-cartel.webp" class="img">
+                </div>
+                <div class="item">
+                    <p>One Piece</p>
+                    <img src="img/8056a82e973dde98ebb82abd39dc69731593432477_main.jpg" class="img">
+                </div>
+                <div class="item">
+                    <p>Bleach</p>
+                    <img src="img/Bleach.jpg" class="img">
+                </div>
+                <div class="item">
+                <p>Chainsaw man</p>
+                    <img src="img/Chainsaw_Man_Anime_Key_Visual_1.webp" class="img">
+                </div>
+                <div class="item">
+                    <p>Yofukashi no uta</p>
+                    <img src="img/yohukashiKV.jpg" class="img">
+                </div>
+                <div class="item">
+                    <p>My hero academi</p>
+                    <img src="img/MY-HERO-ACADEMIA-season-6.jpg.jfif" class="img">
+                </div>
+                <div class="item">
+                    <p>Welcome to demon school iruma</p>
+                    <img src="img/Welcome-to-Demon-School-Iruma-kun-Season-3-Anime-Key-Visual-August-2022.webp" class="img">
+                </div>
+                <div class="item">
+                    <p>Spy x family</p>
+                    <img src="img/spy-x-family-724x1024.jpg" class="img">
+                </div>
+                <div class="item">
+                    <p>Mob psycho</p>
+                    <img src="img/1634718111_176927_1634718386_sumario_normal.jpg" class="img">
+                </div>
+                <div class="item">
+                    <p>Uzaki chan</p>
+                    <img src="img/Sin-titulo-2-min-scaled.jpg" class="img">
+                </div>
+                <div class="item">
+                    <p>Peter grill</p>
+                    <img src="img/descarga.jfif" class="img">
+                </div>
             </div>
-            <div>
-                <img src="" alt="Noticia2">
-                <h3>Kimetsu no yaiba</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos alias laborum id molestias porro quia nostrum assumenda deleniti culpa?</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+        </section>        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <br>
+        <div class="conteiner1">
+            <div class="item-1">
+                <p>Classroom of elite</p>
+                <img src="img/descarga.jfif" class="img">
             </div>
-            <div>
-                <img src="" alt="Noticia3">
-                <h3>kaifuku</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos alias laborum id molestias porro quia nostrum assumenda deleniti culpa?</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            <div class="item-1">
+                <p>Overlord</p>
+                <img src="img/descarga.jfif" class="img">
             </div>
-            <div>
-                <img src="" alt="Noticia4">
-                <h3>Jujutsu kaisen</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eos alias laborum id molestias porro quia nostrum assumenda deleniti culpa?</p>
-                <a href="#">Learn more <i class="fas fa-angle-double-right"></i></a>
+            <div class="item-3">
+                <p>One Piece</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Bleach</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Chainsaw man<</p>
+                <img src="img/descarga.jfif" class="img">
             </div>
         </div>
-    </div>
-    <footer>
+        <br>
+        <div class="conteiner2">
+            <div class="item-1">
+                <p>Yofukashi no uta</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>My hero academi</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Welcome to demon school iruma</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Spy x family</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Mob psycho</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+        </div>
+        <br>
+        <div class="conteiner3">
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+        </div>
+        <br>
+        <div class="conteiner4">
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+            <div class="item-1">
+                <p>Peter grill</p>
+                <img src="img/descarga.jfif" class="img">
+            </div>
+        </div>
+        
+        <!--<div class="footer">
         <img src="img/Leon.jpg" alt="">
         <p>Alaclade porqueres</p>
         <p>+36 673874857</p>
@@ -92,6 +211,24 @@
         <img src="img/Instagram_logo_2016.svg.webp" alt="">
         <img src="img/Facebook_f_logo_(2019).svg.webp" alt="">
         <img src="img/YouTube_full-color_icon_(2017).svg.png" alt="">
-    </footer>
+    </div>-->
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+    </script>
 </body>
 </html>
