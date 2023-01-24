@@ -81,19 +81,6 @@ ul{
         white-space: nowrap;
         -webkit-overflow-scrolling: touch;
       }
-/*.nav-main{
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 20px 0;
-
-}
-.nav-logo{
-    width:50px;
-
-}*/
 /*navegacion letras*/
 .nav-main ul {
     display: flex;
@@ -111,7 +98,7 @@ ul{
     
 }
 /*showcase*/
-hr{
+h2{
     margin: 10px 0;
 }
 .showcase{
@@ -253,7 +240,4 @@ hr{
     text-align: center;
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-}
-.item-1{
-
 }
